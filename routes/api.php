@@ -22,4 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::post('/login', [AuthController::class, 'login']);
+
+Route::get('/index', [ProcessController::class, 'index']);
 Route::post('/add_patient', [ProcessController::class, 'add_patient']);
+Route::post('/make_visit', [ProcessController::class, 'make_visit']);

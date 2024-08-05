@@ -10,4 +10,9 @@ class Patient extends Model
     use HasFactory;
 
     protected $fillable = ['no_rekam_medik', 'nama_pasien', 'nik', 'alamat'];
+
+    public function visit()
+    {
+        return $this->hasOne(Visit::class, 'no_rekam_medik', 'no_rekam_medik');
+    }
 }
