@@ -27,7 +27,7 @@ API Rekam Medik dirancang untuk mengelola data rekam medis pasien.
 Clone repositori
 
 ```bash
-https://github.com/ZyanAlkanza/rekam_medik_backend.git
+https://github.com/ZyanAlkanza/rekam_medik_api.git
 ```
 
 Instal dependensi
